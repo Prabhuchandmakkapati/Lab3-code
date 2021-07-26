@@ -2,7 +2,6 @@ import java.util.Scanner;
 public class VowelCounter {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		 String name;
 	     int a = 0, e = 0, i = 0, o = 0, u = 0;
@@ -18,20 +17,15 @@ public class VowelCounter {
 					
 					if (c == 'a') {
 						a++;
-					}
-					else if (c == 'e') {
+					}else if (c == 'e') {
 						e++;
-					} 
-					else if (c == 'i') {
+					} else if (c == 'i') {
 						i++;
-					} 
-					else if (c == 'o') {
+					} else if (c == 'o') {
 						o++;
-					} 
-					else if (c == 'u') {
+					} else if (c == 'u') {
 						u++;
-					} 
-					else {
+					} else {
 						non_vowel++;
 					}
 				}
@@ -40,7 +34,7 @@ public class VowelCounter {
 			System.out.println("i: " + i);
 			System.out.println("o: " + o); 
 			System.out.println("u: " + u);  
-			System.out.println("Number of non vowels: " + non_vowel);
+			System.out.println("number of non-vowels: " + non_vowel);
 			
 	scan.close();
 	}
