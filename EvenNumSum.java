@@ -2,7 +2,6 @@ import java.util.Scanner;
 public class EvenNumSum {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		    int input;
 		    int sum = 0;
 			
@@ -11,7 +10,7 @@ public class EvenNumSum {
 			input = scan.nextInt();
 			
 			while(input < 2) {
-				System.out.print ("Error, " + " Re-enter the number:");//Print an error message if the input value is less than 2
+				System.out.print ("Error, " + " re-enter the number:");//Prints an error message if the input value is less than 2
 		        input = scan.nextInt();
 			}
 			
@@ -19,8 +18,7 @@ public class EvenNumSum {
 				sum += i;
 			}
 			
-			System.out.print (" prints the sum of all even \r\n"
-					+ "numbers between 2 and the input value, inclusive: " + sum);
+			System.out.print (" prints the sum of all even numbers between 2 and the input value, inclusive: " + sum);
 			scan.close();
 		}
 	}
