@@ -12,7 +12,7 @@ public static void main(String[] args) {
 			final int MAX_ROWS = 5;
 			 for (int row = 1; row <= MAX_ROWS; row++)
 			 {
-			 for (int star = 1; star <= row; star++)
+			 for (int star = 1; star <= size; star++)
 			 System.out.print("*");
 			 System.out.println();
 	                 }
