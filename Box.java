@@ -1,7 +1,7 @@
 public class Box {
 int size = 0;
 
-public Box() {} // method with no parameters and void return type
+public Box() {} // method with no parameters and void return type has created
 
 public static void main(String[] args) {
 		Box objBox = new Box();  //New Box object created
