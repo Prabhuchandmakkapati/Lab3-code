@@ -4,7 +4,7 @@ int size = 0;
 public Box() {} // method with no parameters and void return type
 
 public static void main(String[] args) {
-		Box objBox = new Box();  //Box object created
+		Box objBox = new Box();  //New Box object created
 	        objBox.size = 5;
 		objBox.printBox();			
 		}
